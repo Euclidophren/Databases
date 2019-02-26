@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CHGK" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-F796EKR\SQLEXPRESS;Initial Catalog=CHGK;Integrated Security=True" SettingsObjectName="LinqToSqlAttempt2.Properties.Settings" SettingsPropertyName="CHGKConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.APQ" Member="APQ">
+    <Type Name="APQ">
+      <Column Name="AuthorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Used" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Authors_APQ" Member="Authors" ThisKey="AuthorID" OtherKey="ID" Type="Authors" IsForeignKey="true" />
+      <Association Name="Packages_APQ" Member="Packages" ThisKey="PackageID" OtherKey="ID" Type="Packages" IsForeignKey="true" />
+      <Association Name="Questions_APQ" Member="Questions" ThisKey="QuestionID" OtherKey="ID" Type="Questions" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Authors" Member="Authors">
+    <Type Name="Authors">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(35)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Association Name="Authors_APQ" Member="APQ" ThisKey="ID" OtherKey="AuthorID" Type="APQ" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Packages" Member="Packages">
+    <Type Name="Packages">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PackageName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Theme" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="FormationDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="QuestionAmount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Editor" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Association Name="Packages_APQ" Member="APQ" ThisKey="ID" OtherKey="PackageID" Type="APQ" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Questions" Member="Questions">
+    <Type Name="Questions">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Content" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Answer" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="QuestionSource" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Type" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="Questions_APQ" Member="APQ" ThisKey="ID" OtherKey="QuestionID" Type="APQ" />
+    </Type>
+  </Table>
+  <Function Name="dbo.usp_SelectMen" Method="usp_SelectMen">
+    <Parameter Name="AverageAge" Parameter="averageAge" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <ElementType Name="usp_SelectMenResult">
+      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

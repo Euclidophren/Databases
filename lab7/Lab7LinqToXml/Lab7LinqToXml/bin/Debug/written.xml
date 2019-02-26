@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Questions>
+  <Question QuestionId="42">
+    <Content>Назовите нобелевского лауреата и овощ одним словом</Content>
+    <Answer>Пастернак</Answer>
+    <QuestionSource>Невероятное совпадение</QuestionSource>
+  </Question>
+  <Question QuestionId="43">
+    <Content>Этот</Content>
+    <Answer>Элемент</Answer>
+    <QuestionSource>Создан</QuestionSource>
+  </Question>
+</Questions>

@@ -1,0 +1,29 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT CHGK (Questions)+>
+<!ATTLIST CHGK
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Questions (id,Content,Answer,QuestionSource,error?)>
+<!ATTLIST Questions
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Content (#PCDATA)>
+<!ATTLIST Content
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Answer (#PCDATA)>
+<!ATTLIST Answer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT QuestionSource (#PCDATA)>
+<!ATTLIST QuestionSource
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT error (#PCDATA)>
+<!ATTLIST error
+  xmlns CDATA #FIXED ''>

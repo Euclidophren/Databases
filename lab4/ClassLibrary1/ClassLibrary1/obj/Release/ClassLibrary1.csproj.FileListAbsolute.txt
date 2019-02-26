@@ -1,0 +1,5 @@
+J:\SPDF\Bauman\DataBases\lab4\ClassLibrary1\ClassLibrary1\obj\Release\ClassLibrary1.csprojResolveAssemblyReference.cache
+J:\SPDF\Bauman\DataBases\lab4\ClassLibrary1\ClassLibrary1\bin\Release\ClassLibrary1.dll
+J:\SPDF\Bauman\DataBases\lab4\ClassLibrary1\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+J:\SPDF\Bauman\DataBases\lab4\ClassLibrary1\ClassLibrary1\obj\Release\ClassLibrary1.dll
+J:\SPDF\Bauman\DataBases\lab4\ClassLibrary1\ClassLibrary1\obj\Release\ClassLibrary1.pdb

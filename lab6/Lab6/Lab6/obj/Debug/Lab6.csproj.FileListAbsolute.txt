@@ -1,0 +1,6 @@
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\bin\Debug\Lab6.exe.config
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\obj\Debug\Lab6.csprojResolveAssemblyReference.cache
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\bin\Debug\Lab6.exe
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\bin\Debug\Lab6.pdb
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\obj\Debug\Lab6.exe
+J:\SPDF\Bauman\DataBases\lab6\Lab6\Lab6\obj\Debug\Lab6.pdb

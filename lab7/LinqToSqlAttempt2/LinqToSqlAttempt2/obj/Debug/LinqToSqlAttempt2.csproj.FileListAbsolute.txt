@@ -1,0 +1,6 @@
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\bin\Debug\LinqToSqlAttempt2.exe.config
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\obj\Debug\LinqToSqlAttempt2.csprojResolveAssemblyReference.cache
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\bin\Debug\LinqToSqlAttempt2.exe
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\bin\Debug\LinqToSqlAttempt2.pdb
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\obj\Debug\LinqToSqlAttempt2.exe
+J:\SPDF\Bauman\DataBases\lab7\LinqToSqlAttempt2\LinqToSqlAttempt2\obj\Debug\LinqToSqlAttempt2.pdb

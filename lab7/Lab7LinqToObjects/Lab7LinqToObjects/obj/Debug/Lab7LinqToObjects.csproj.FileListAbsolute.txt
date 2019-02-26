@@ -1,0 +1,6 @@
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\bin\Debug\Lab7LinqToObjects.exe.config
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\bin\Debug\Lab7LinqToObjects.exe
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\bin\Debug\Lab7LinqToObjects.pdb
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\obj\Debug\Lab7LinqToObjects.csprojResolveAssemblyReference.cache
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\obj\Debug\Lab7LinqToObjects.exe
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToObjects\Lab7LinqToObjects\obj\Debug\Lab7LinqToObjects.pdb

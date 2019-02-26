@@ -1,0 +1,5 @@
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToXml\Lab7LinqToXml\bin\Debug\Lab7LinqToXml.exe.config
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToXml\Lab7LinqToXml\bin\Debug\Lab7LinqToXml.exe
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToXml\Lab7LinqToXml\bin\Debug\Lab7LinqToXml.pdb
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToXml\Lab7LinqToXml\obj\Debug\Lab7LinqToXml.exe
+J:\SPDF\Bauman\DataBases\lab7\Lab7LinqToXml\Lab7LinqToXml\obj\Debug\Lab7LinqToXml.pdb

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE CHGK[
+  <!ELEMENT CHGK (Question+)>
+  <!ELEMENT Question (Content, Answer, QuestionSource)>
+  <!ATTLIST Question QuestionId ID #REQUIRED>
+  <!ELEMENT Content (#PCDATA)>
+  <!ELEMENT Answer (#PCDATA)>
+  <!ELEMENT QuestionSource (#PCDATA)>
+]>
+
+<CHGK>
+  <Question QuestionId = "4">
+    <Content>luctus et</Content>
+    <Answer>id nulla</Answer>
+    <QuestionSource>vitae mattis</QuestionSource>
+    <!-- i'm breaking the habit tonight -->
+  </Question>
+  <Question QuestionId = "18">
+    <Content>ante vel</Content>
+    <Answer>magnis dis</Answer>
+    <QuestionSource>porttitor lacus</QuestionSource>
+    <!-- magnis dis -->
+  </Question>
+  <Question QuestionId = "20">
+    <Content>vestibulum eget</Content>
+    <Answer>magnis dis</Answer>
+    <QuestionSource>proin eu</QuestionSource>
+    <!-- watch it pass by as the pendulum swings -->
+  </Question>
+</CHGK>
