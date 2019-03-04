@@ -9,5 +9,5 @@ as the name is changed.
 
        TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
- 1. Do what the fuck you want with this files.
+ 1. Do what the fuck you want with these files.
 ```
